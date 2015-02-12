@@ -2,6 +2,7 @@ public class Hello
 {
     public static void main( String argv[] )
     {
+	//default is "World"
         String name = "World";
         if ( argv.length != 0 )
         {
